@@ -17,10 +17,10 @@ printf("Dice 2 value %d\n",b1);
 printf("Total value is %d\n",sum);
     
 if(sum >= 8){
-    printf("You Win!\n");
+    printf("%s Won!\n",name);
 }
 else{
-    printf("You Lose!\n");
+    printf("%s Lose!\n",name);
 }
 
 return 0;
