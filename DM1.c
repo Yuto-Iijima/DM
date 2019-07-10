@@ -15,6 +15,13 @@ printf("Rolling tha dice...\n");
 printf("Dice 1 value %d\n",a1);
 printf("Dice 2 value %d\n",b1);
 printf("Total value is %d\n",sum);
+    
+if(sum >= 8){
+    printf("You Win!\n");
+}
+else{
+    printf("You Lose!\n");
+}
 
 return 0;
 }
